@@ -8,4 +8,4 @@ python HexaDogPos.py to run it
    
 HexaPosToolui.ui is included in case someone wants to modify the UI   
 
-The Pi will need PyQT5 installed, there's a useful guide here: https://stackoverflow.com/questions/62802520/install-pyqt5-and-qtdesigner-on-raspberry-pi   
+The Pi may need PyQT5 installed, I don't recall if it was already there, if it does there's a useful guide here: https://stackoverflow.com/questions/62802520/install-pyqt5-and-qtdesigner-on-raspberry-pi   
