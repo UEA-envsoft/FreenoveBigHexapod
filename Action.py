@@ -36,7 +36,7 @@ class Action:
 
 
     def rearUp(self):
-        self.expr.suprise()  # requires LED matrix mouth
+        #self.expr.suprise()  # requires LED matrix mouth
         #rear legs back
         self.transition([[122,0,-126],[118,0,-79],[199,0,50],[199,0,50],[118,0,-79],[122,0,-126]],10)
         #front up
@@ -56,7 +56,7 @@ class Action:
     def react(self):
         self.rearUp()
         time.sleep(0.2)
-        self.expr.fangs()
+        #self.expr.fangs()
         self.frontWaggle()
         time.sleep(0.2)
         self.frontWaggle()
@@ -65,7 +65,7 @@ class Action:
         time.sleep(1)
         self.transition()
         self.servo.relax()
-        self.expr.grin2()
+        #self.expr.grin2()
    
 # Main program logic follows:
 if __name__ == '__main__':
