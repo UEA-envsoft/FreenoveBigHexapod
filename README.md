@@ -3,9 +3,10 @@ useful files for the Freenove Big Hexapod
 
 <h2> Hexapod Position Tool </h2>
 
-HexaDogPos (the filename was a typo I never got round to correcting) is a utility for converting the Freenove xyz co-ordinate system to servo angles or from servo angles to the co-ordinate system.   
-Drop hexa_calibration.png, HexaDogPos.py and HexaPosToolui.py in the Code/Server directory   
-python HexaDogPos.py to run it   
+HexaPosTool is a utility for converting the Freenove xyz co-ordinate system to servo angles or from servo angles to the co-ordinate system.  
+It can store four positions and transition smoothly between them.  
+Drop hexa_calibration.png, HexaPosTool.py and HexaPosToolui.py in the Code/Server directory.   
+To run it type: <pre>python HexaPosTool.py</pre>
    
    
 HexaPosToolui.ui is included in case someone wants to modify the UI   
