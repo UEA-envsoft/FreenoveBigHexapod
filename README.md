@@ -11,6 +11,13 @@ To run it type: <pre>python HexaPosTool.py</pre>
    
 HexaPosToolui.ui is included in case someone wants to modify the UI   
 
+
+<h3>NOTE: more recent versions of the hexapod code have an ADC.py file instead of the ADS7830.py file.  </h3>   
+   
+For the more recent version, 2 lines in HexaPosTool.py need to be changed.     
+   
+On line 11 replace 'from ADS7830 import *' with 'from ADC import *'.   
+On line 20 replace 'self.adc = ADS7830()' with 'self.adc=ADC()'.  
 <hr>
 
 <h2> Local wireless keyboard and autonomous movement </h2>
