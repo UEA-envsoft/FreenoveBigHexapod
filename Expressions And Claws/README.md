@@ -11,6 +11,15 @@ BorisKb.py is the file to run, it monitors the wireless keyboard and calls every
 
 ![image](https://github.com/UEA-envsoft/FreenoveBigHexapod/assets/64538329/b358bf63-ae10-4306-9c24-0cde73722713) I use the Rii i8s mini keyboard
 
+My Servo Connections:    
+   
+2 - Left Claw   
+3 - Right Claw   
+4 - Left Arm   
+5 - Right Arm   
+6 - Left Wrist   
+7 - Right Wrist   
+
 
 Other new or modified files are also in this directory.
 
