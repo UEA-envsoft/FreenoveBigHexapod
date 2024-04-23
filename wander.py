@@ -1,5 +1,5 @@
 import time
-from lclkbd import *
+from wirelesskb import *
 
 
 class wander:
